@@ -108,7 +108,7 @@ main div {
 }
 
 .descrip tr {
-  color: black;
+  color:brown;
 }
 
 .animate {
@@ -125,7 +125,7 @@ main div {
   width: 60%;
 }
 
-@media screen and (max-width: 1250px) {
+@media screen and (max-width: 900px) {
   body {
       background:white;
   }
@@ -158,5 +158,10 @@ main div {
   .bottom-content {
     color:black
   }
-  
+  .descrip tr {
+    color:black;
+  }
+  .bg-image {
+      display:none;
+  }
 }

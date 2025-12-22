@@ -1,0 +1,204 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body, html{
+  height:100%
+}
+
+.preview {
+  height: 100%;
+  width: 100%;
+  left: 0%;
+  top: 0%;
+  position:absolute;
+}
+
+footer {
+  border: 5px;
+  padding: 20px;
+  font-size: small;
+  margin-top: auto;
+  background-color:#E6FFFA;
+}
+
+header {
+  height: 20px;
+  border: 5px;
+  width: 100%;
+  padding: 20px;
+  position: fixed;
+  overflow: hidden;
+}
+
+header a:hover {
+  text-decoration: underline;
+}
+
+header li {
+  display: inline;
+  margin-right: 4vw;
+  font-size: larger;
+  top: 0;
+  line-height: 20px;
+}
+
+.main_content {
+  background-color: #E6FFFA;
+  display:flex;
+}
+
+.main_content h3 {
+  color:black;
+  font-size:x-large;
+}
+
+.main_content p {
+  color:black;
+  padding: 10px 0px;
+}
+
+div li {
+  color:black;
+  list-style-type: none;
+  padding: 10px 0px;
+}
+
+main div {
+  border: 5px;
+  padding: 20px;
+}
+
+
+.profile-pic img {
+    border-radius: 50%;
+    max-width:175px;
+    max-height:175px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.descrip{
+  width:175px;
+}
+
+.left li {
+  color: black;
+  list-style-type: none;
+  padding: 5px 0px;
+}
+
+.content tr {
+  color:black;
+  height:25px;
+}
+
+.bottom-content {
+  color:black
+}
+
+.descrip tr {
+  color:black;
+}
+
+.animate {
+  color:black;
+  padding: 20px 0px;
+  font-size:xx-large;
+}
+
+.edge-left {
+  width:10%;
+}
+.left {
+  width: 25%;
+}
+
+.middle {
+  width: 55%;
+}
+
+.edge-right {
+  width:10%;
+}
+
+.hyperlink {
+  color:#0EA5E9;
+}
+
+.contact{
+  display:none;
+}
+
+@media screen and (max-width:600px){
+  .animate{
+    color:black;
+    font-size:x-large;
+  }
+  .profile-pic img{
+    display: none;
+  }
+  .left{
+    display: none;
+  }
+  .edge-left{
+    display: none;
+  }
+  .edge-right{
+    display: none;
+  }
+  .middle {
+    width: 100%;
+  }
+  .animate{
+    color:black;
+    font-size:x-large;
+  }
+
+  .contact{
+    display:block;
+  }
+}
+
+@media screen and (max-width: 1100px) and (min-width: 601px) {
+  .animate{
+    color:black;
+    font-size:x-large;
+  }
+
+  .edge-left{
+    display: none;
+  }
+  .left {
+    width: 120px;
+  }
+  
+  .middle {
+    width: 100%;
+  }
+  .edge-right{
+    display: none;
+  }
+  .profile-pic img {
+    max-width:120px;
+    max-height:120px;
+  }
+
+  .descrip{
+    width:120px;
+  }
+
+  .contact_logo {
+    width:30px
+  }
+  .bottom-content {
+    color:black
+  }
+  .descrip tr {
+    color:black;
+  }
+  .bg-image {
+      display:none;
+  }
+}

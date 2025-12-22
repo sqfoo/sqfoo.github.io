@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me - FOO</title>
+    <link rel="stylesheet" href="src/css/style.css">
+</head>
+<body>
+
+    <div class="bg-image"></div>
+    <div class="preview"></div>
+    <header>
+        <div class="main_tags">
+            <ul>
+                <li> Shi Quan, FOO </li>
+                <li> <a class="hyperlink" href="src/assests/Foo_Shi_Quan_CV.pdf"> CV </a> </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+    <div class="main_content">
+        <div class="edge-left"></div>
+        
+        <div class="left">
+            <div class="profile-pic" style="padding-top:50px">
+                <!-- <img src="src/images/profile.png" alt="Avatar" style="background-color:aliceblue;"> -->
+                <img src="src/images/profile.JPG" alt="Avatar">
+            </div>
+            <div>
+                <table class="descrip">
+                    <tr><td style="text-align: center;"><b>Shi Quan, FOO</b></td></tr>
+                    <tr><td style="text-align: center;">Research Assistant,</td></tr>
+                    <tr><td style="text-align: center;">HKUST</td></tr>
+                </table>
+            </div>
+            <div>
+                <table class="descrip">
+                    <tr>
+                        <td><a class="hyperlink" href="mailto:sqfoo@connect.ust.hk"><img src="src/images/email.png" width="40px" class="contact_logo"></a></td>
+                        <td><a class="hyperlink" href="https://www.linkedin.com/in/shi-quan-foo-a2614b323/"><img src="src/images/linkedin.png" width="40px" class="contact_logo"></a></td>
+                        <td><a class="hyperlink" href="https://github.com/sqfoo"><img src="src/images/github.png" width="40px" class="contact_logo"></a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="middle">
+            <div class="about">
+              
+            <h2 class="animate" style="height:50px"><span id="describe"></span></h2>
+            <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+            <!-- Setup and start animation! -->
+            <!-- https://mattboldt.github.io/typed.js/ -->
+            <script>
+                var typed = new Typed('#describe', {
+                strings: ['Hello world, I am Foo !!!', '初めまして、どうぞよろしく', 
+                        'I am an engineer and scientist','I am an AI Enthusiast',
+                        'Welcome to my personal site'],
+                typeSpeed: 125,
+                loop: true,
+                onComplete: function(self) {
+                    setTimeout(function () {
+                    self.reset();
+                    }, 7500);
+                },
+                });
+            </script>
+
+            <div class="contact">
+                <h4>Shi Quan, FOO<h4>
+                <h4>Research Assistant, HKUST<h4>
+                [<a class="hyperlink" href="mailto:sqfoo@connect.ust.hk">Email</a>]
+                [<a class="hyperlink" href="https://www.linkedin.com/in/shi-quan-foo-a2614b323/">LinkedIn</a>]
+                [<a class="hyperlink" href="https://github.com/sqfoo">GitHub</a>]
+            </div>
+            <div>
+                <h3>About Me</h3><p></p>
+                <p align="justify">
+                    I am a graduated Physics student from Hong Kong University of Science and Technology (HKUST), Hong Kong and currently working as research assistant that focussing on implementing 
+                    deep learning models on weather forecasting task under the supervision of Prof. Yeung Dit-Yan in HKUST. I received Bachelor of Science with major in
+                    Phyiscs from HKUST in 2022.
+                </p>
+                <p align="justify">
+                    My current research interest are model robustness and agentic workflow. I did the work on developing a new loss function to improve the 
+                    the performance of video prediction models.
+                </p>
+                <p>
+                    Looking forwards to doing something interesting.
+                </p>
+            </div>
+            
+
+            
+            <div class="experience">
+                <h3>Experiences</h3>
+                <p></p>
+                <table class="content" style="width:100%">
+                    <tr>
+                        <td rowspan="2" align="center" width="10%"><img src="src/images/hkust.png" height="75px"></td>
+                        <td>Research Assistant, The Hong Kong University of Science and Technology (HKUST)</td>
+                    </tr>
+                    <tr>
+                        <td>Aug. 2022 - Present</td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2" align="center" width="10%"><img src="src/images/hko.png" height="75px" width="75px"></td>
+                        <td>Sumemr Intern, Hong Kong Observatory (HKO)</td>
+                    </tr>
+                    <tr>
+                        <td>Jun. 2021 - Jul. 2021</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="edu">
+                <h3>Education</h3><p></p>
+                <table class="content" style="width:100%">
+                    <tr>
+                        <td style="width:90%">BSc in Physics, The Hong Kong University of Science and Technology (HKUST)</td>
+                        <td>2018-22</td>
+                    </tr>
+                </table>
+            </div>
+
+            <div class="research">
+                <h3>Research & Publications</h3><p></p>
+                <div class="bottom-content" style="padding:0px;">
+                    <div style="padding-left:0px; padding-top:1%;">
+                        <a class="hyperlink" href='https://openreview.net/forum?id=f4oJwXn3qg'><strong>
+                            STLDM: Spatio-Temporal Latent Diffusion Model for Precipitation Nowcasting
+                        </strong></a>
+                        <br>
+                        <em>
+                            <b>Shi Quan Foo</b>, Chi-Ho Wong, Zhihan Gao, Dit-Yan Yeung, Ka-Hing Wong, Wai-Kin Wong
+                        </em>
+                        <br>
+                        TMLR 2025
+                        [<a class="hyperlink" href="https://openreview.net/forum?id=f4oJwXn3qg">pdf</a>]
+                        [<a class="hyperlink" href="https://github.com/sqfoo/stldm_official">code</a>]
+                    </div>
+
+                    <div style="padding-left:0px; padding-top:1%;">
+                        <a class="hyperlink" href='https://nips.cc/virtual/2024/poster/96922'><strong>
+                            Fourier amplitude and correlation loss: Beyong using L2 loss for skillful precipitation nowcasting
+                        </strong></a>
+                        <br>
+                        <em>
+                            Chiu-Wai Yan, <b>Shi Quan Foo</b>, Van-Hoan Trinh, Dit-Yan Yeung, Ka-Hing Wong, Wai-Kin Wong
+                        </em>
+                        <br>
+                        NeurIPS 2024
+                        [<a class="hyperlink" href="https://arxiv.org/abs/2410.23159">pdf</a>]
+                        [<a class="hyperlink" href="https://github.com/argenycw/FACL">code</a>]
+                    </div>
+                </div>
+            </div>
+
+            <div class="honors">
+                <h3>Honors & Awards</h3><p></p>
+                <table class="bottom-content" style="width:100%">
+                    <tr>
+                        <td style="width:90%">Paul Ching Wu Chu Scholarship for Physics Students</td>
+                        <td>2021-22</td>
+                    </tr>
+                    <tr>
+                        <td>Physics Entry Scholarship</td>
+                        <td>2019-22</td>
+                    </tr>
+                    <tr>
+                        <td>HKSAR Government Scholarship Fund - Belt and Road Scholarship (Malaysia)</td>
+                        <td>2018-22</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+
+        <div class="edge-right"></div>
+    </div>
+    
+    </main>
+    
+    <footer>
+        <p>Copyright @ 2024 Shi Quan, FOO All Rights Reserved.</p>
+    </footer>
+    </div>
+</body>
+</html>
